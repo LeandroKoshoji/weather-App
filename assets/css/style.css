@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #D9D9D9;
+    min-height: 100vh;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    width: min(90%, 65rem);
+    margin-inline: auto;
+}
+
+.card {
+    background-color: #FFF;
+    margin-inline: auto;
+    width: 50%;
+    border-radius: 15px;
+    min-height: 250px;
+}   
+.card.night {
+    background: rgb(2,0,36);
+    background: linear-gradient(200deg, rgba(2,0,36,1) 10%, rgba(255,255,255,1) 50% ,rgba(255,255,255,1) 100%);
+}
+.card.day {
+    background: rgb(65,183,250);
+    background: linear-gradient(200deg, rgba(65,183,250,1) 1%, rgba(255,255,255,1) 50%,rgba(255,255,255,1) 100%);
+}
+

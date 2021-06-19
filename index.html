@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Now</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <form>
+                <input type="text" name="getCity" placeholder="Search city">
+                <button type="submit" class="submit-button"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="card-wrapper">
+                <div class="card day">
+                    <span class="city-name-container">
+                        Miami
+                    </span>
+                    <div class="weather-temperature">
+                        <span class="city-temperature">00</span>
+                        <span>&deg;C</span>
+                    </div>
+
+                    <img class="weather-icon" src="assets/src/icons/13.svg" alt="">
+
+                    <span class="weather-text-info">Parcialmente Nublado</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/weather.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
