@@ -13,28 +13,30 @@
 <body>
     <header>
         <div class="container">
-            <form>
-                <input type="text" name="getCity" placeholder="Search city">
-                <button type="submit" class="submit-button"><i class="fas fa-search"></i></button>
-            </form>
+            <div class="search-container">
+                <h1 class="header-title">Weather Now</h1>
+                <form>
+                    <input type="text" name="getCity" placeholder="Search city">
+                    <button type="submit" class="submit-button"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
         </div>
     </header>
-
     <section>
         <div class="container">
             <div class="card-wrapper">
                 <div class="card day">
-                    <span class="city-name-container">
-                        Miami
-                    </span>
-                    <div class="weather-temperature">
+                    <div class="card-top">
+                        <span class="city-name-container">
+                            Saint Petersburg
+                        </span>
+                        <img class="weather-icon" src="assets/src/icons/13.svg" alt="">
+                    </div>
+                    <div class="card-middle">
                         <span class="city-temperature">00</span>
                         <span>&deg;C</span>
                     </div>
-
-                    <img class="weather-icon" src="assets/src/icons/13.svg" alt="">
-
-                    <span class="weather-text-info">Parcialmente Nublado</span>
+                    <div class="card-bottom"><span class="weather-text-info">Parcialmente Nublado</span></div>
                 </div>
             </div>
         </div>
