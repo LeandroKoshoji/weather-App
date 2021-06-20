@@ -48,6 +48,7 @@ header {
 .header-title {
     padding-bottom: 2rem;
     font-weight: 700;
+    
 }
 form {
     display: flex;
@@ -66,7 +67,7 @@ input {
     border: 0;
 }
 .card {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     background-color: #FFF;
