@@ -16,7 +16,7 @@ const fetchData = async url=> {
 }
 
 const getCityUrl = inputValue => 
-    `http://dataservice.accuweather.com/locations/v1/cities/search?apikey=${APIKey}&q=${inputValue}`
+    `https://dataservice.accuweather.com/locations/v1/cities/search?apikey=${APIKey}&q=${inputValue}`
 
 const getWeatherUrl = key => 
-    `http://dataservice.accuweather.com/currentconditions/v1/${key}?apikey=${APIKey}&language=pt-br`
+    `https://dataservice.accuweather.com/currentconditions/v1/${key}?apikey=${APIKey}&language=pt-br`
