@@ -23,17 +23,13 @@ button {
 }
 
 i{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
 .container {
     width: min(90%, 65rem);
     margin-inline: auto;
-}
-
-header {
-    min-height: 200px;
 }
 
 .search-container {
@@ -46,9 +42,10 @@ header {
 }
 
 .header-title {
-    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
     font-weight: 700;
-    
+    font-size: 2.5rem;
 }
 form {
     display: flex;
@@ -58,6 +55,7 @@ form {
     padding: 1rem  2rem;
     width: 80%;
     border-radius: 15px;
+    box-shadow: 1px 1px 5px #000;
 }
 
 input {
@@ -75,6 +73,7 @@ input {
     width: 80%;
     border-radius: 15px;
     min-height: 250px;
+    box-shadow: 1px 1px 5px #000;
 }   
 .card.night {
     color: #FFF;
@@ -88,7 +87,7 @@ input {
 }
 
 .card > * {
-    padding: .5rem 1rem;
+    padding: 1rem 2rem;
 
 }
 .card-top {
@@ -106,8 +105,12 @@ input {
 
 .city-name-container {
     text-align: center;
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.weather-icon {
+    width: 150px;
 }
 
 .card-middle {
