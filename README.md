@@ -1,12 +1,14 @@
 <div align="center">
-  <a href="https://todo-list-lka.netlify.app/" target="_blank">
-    <img src="assets/todo-list.gif" / > 
+  <a href="https://weather-now-lka.netlify.app/" target="_blank">
+    <img src="assets/weatherNow.gif" / > 
   </a>   
 </div>
 
-# To-do List
+# Weather Now 
 
-Add, complete, delete and filter your to-do activities.
+
+Application responsible for returning the temperature and weather conditions of the researched place
+
 >Note: Developed just to measure my progress with Vanilla Js. 
 
 ## Technologies Used
@@ -17,7 +19,7 @@ Add, complete, delete and filter your to-do activities.
 
 ## Links
 
-Click [Here](https://todo-list-lka.netlify.app/) to access the application.
+Click [Here](https://weather-now-lka.netlify.app/) to access the application.
 
 ---
 <p align="center">Developed by <strong>Leandro Koshoji Araujo</strong></p>
